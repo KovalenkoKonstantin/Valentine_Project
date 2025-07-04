@@ -262,11 +262,11 @@ def check_outlook():
         time.sleep(5)  # Проверяем каждые 60 секунд
 
 # Запуск функции проверки автозагрузки
-check_autostart()
+# check_autostart()
 
 # Запуск функции проверки Outlook
 check_outlook()
 
 
 # 🚀 Запуск проверки Outlook в фоновом потоке
-threading.Thread(target=check_outlook, daemon=True).start()
+# threading.Thread(target=check_outlook, daemon=True).start()
