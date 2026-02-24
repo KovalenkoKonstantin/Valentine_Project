@@ -265,7 +265,7 @@ def check_outlook():
 # check_autostart()
 
 # Запуск функции проверки Outlook
-check_outlook()
+close_outlook()
 
 
 # 🚀 Запуск проверки Outlook в фоновом потоке
